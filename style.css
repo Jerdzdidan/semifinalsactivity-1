@@ -1,0 +1,368 @@
+/* MY FONTS:
+font-family: 'DM Serif Text', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'DM Serif Display', serif; */
+
+/* MY Colors:
+    #94dc94
+*/
+
+/* Transition effect when loading into the page */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.fade-in {
+    animation: fadeIn 0.8s ease-in forwards;
+}
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #004ea875;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar LOGO */
+.mynavbar {
+    background-color: #00000000;
+    min-width: 100%;
+}
+
+.mylogo{
+    width: 143px!important;
+}
+
+.mylogotext {
+    font-size: 32px;
+    color: white !important;
+    font-family: 'DM Serif Text', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.452);
+}
+
+.mylogotext:hover {
+    color: white;
+}
+
+.mylogotext:active {
+    color: white;
+}
+
+/* Dropdown Menu Bar */
+.offcanvasbg {
+    background-color: #ffffff;
+}
+.mylogotextmenu {
+    font-size: 50px;
+    color: #004ea8;
+    font-family: 'DM Serif Text', serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.452);
+}
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.542);
+}
+
+
+
+/* Carousel MAIN*/
+.mycr {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.281);
+}
+
+.c-item {
+    height: 100vh;
+}
+
+.c-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #004ea875;
+    /* Dark overlay color with 50% opacity */
+}
+
+.content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+/* Main Text */
+.coh1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 650;
+    font-size: 42px;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.444);
+}
+.cop {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.915);
+}
+.btn {
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Montserrat', serif;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.355);
+}
+.btn:hover {
+    background-color: #004ea8;
+    border: 2px solid #004ea8;
+    color: white;
+}
+
+/* Video */
+.video{
+    min-height: 374px;
+    max-height: 374px;
+    object-fit: cover;
+}
+
+/* Audio */
+#Audio{
+    background-color: #3b82d3;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.341);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.409), 0px 5px 5px rgba(0, 0, 0, 0.409);
+}
+
+#playPauseButton1, #playPauseButton2, #playPauseButton3{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.myaudio{
+    font-size: 96px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.341);
+    color: white;
+}
+
+/* message */
+.message{
+    background-color: lightgreen;
+}
+
+/* Cards */
+.mycardcontainer {
+    background-color: #94dc946b !important;
+    box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.068), 0px 5px 8px rgba(0, 0, 0, 0.068);
+}
+
+.mycardbox {
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+.bgmycard {
+    background-color: #87CEEB;
+}
+
+.card_image {
+    min-height: 164px;
+    max-height: 164px;
+    object-fit: cover;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+
+
+/* Footer */
+.mywrapper{
+    height: 568px;
+}
+.myfooter {
+    box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.208);
+    background-color: #004EA8;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+.myfooter{
+    color: white;
+}
+.myfooter a{
+    text-decoration: none;
+    color: white;
+}
+.myfooter a:hover{
+    color: #8AADD775;
+}
+  
+
+i {
+    font-size: 25px;
+    width: 46px;
+}
+
+.myicons {
+    text-decoration: none;
+    color: white;
+}
+
+.myicons:hover {
+    color: rgba(255, 255, 255, 0.485);
+}
+
+.mycopyright {
+    color: white;
+    padding-top: 10px;
+}
+
+/* Small */
+@media (min-width: 576px) {
+    /* Logo */
+    .mylogo{
+        width: 96px;
+    }
+    .mylogotext{
+        font-size: 50px;
+    }
+
+
+    /* Carousel Main */
+    /* Main Text */
+    .coh1 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 650;
+        font-size: 46px;
+        text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.444);
+    }
+    .btn {
+        font-size: medium;
+    }
+
+
+    /* Cards */
+    .bgmycard {
+        background-color: #87CEEB;
+        min-width: 320px;
+        height: 408px;
+    }
+
+    .card_image {
+        min-height: 164px;
+        max-height: 172px;
+        object-fit: cover;
+    }
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+    /* Carousel Main */
+    /* Main Text */
+    .coh1 {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 650;
+        font-size: 56px;
+        text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.444);
+    }
+    .btn {
+        font-size: larger;
+    }
+
+    /* Cards */
+    .bgmycard {
+        background-color: #87CEEB;
+        min-width: 560px;
+        height: 400px;
+    }
+    .card_image1 {
+        object-position: 0px -172px;
+    }
+    .card_image {
+        min-height: 164px;
+        max-height: 480px;
+        object-fit: cover;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Cards */
+    .bgmycard {
+        background-color: #87CEEB;
+        min-width: 800px;
+        height: 520px;
+    }
+
+    .card_image1 {
+        object-position: 0px -172px;
+    }
+
+    .card_image {
+        min-height: 164px;
+        max-height: 480px;
+        object-fit: cover;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Cards */
+    .bgmycard {
+        background-color: #87CEEB;
+        min-width: 920px;
+        height: 580px;
+    }
+
+    .card_image1 {
+        object-position: 0px -172px;
+    }
+
+    .card_image {
+        min-height: 164px;
+        max-height: 480px;
+        object-fit: cover;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

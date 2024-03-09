@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <title>Arellano University</title>
+
+  <link rel="icon" type="svg" href="images/Arellano_University_New_Logo.png">
+
+  <!-- Bootstrap5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=DM+Serif+Text&family=Lobster&family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <div class="mybody mycontainer fade-in">
+
+    <!-- Navbar -->
+    <nav id="mynavbar" class="navbar mynavbar fixed-top">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand mylogotext" href="index.html">
+              <img src="images/Arellano_University_New_Logo.png" alt="Logo" class="d-inline-block mylogo">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="hero-carousel carousel slide mycr carousel-fade" data-bs-ride="carousel"
+      data-bs-interval="2400" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="images/carousel/au-main_1.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-pasay-mabini.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-pasig.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-pasay-abad.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-plaridel-1.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-malabon-rizal.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="images/carousel/au-malabon-elisa.jpg" class="d-block w-100 c-image" alt="...">
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="content-overlay"id="Promo">
+        <h1 class="coh1">Arellano University</h1>
+        <p class="cop">"For God and Country"</p>
+        <a class="btn btn-lg mt-1 px-4 py-3 mb-md-0" href="index.html#Promo" role="button"><b>Continue</b></a>
+      </div>
+    </div>
+
+    <div class="container text-center pt-5">
+      <h1>PROMOTIONAL VIDEOS</h1>
+    </div>
+
+    <div class="container-fluid" id="Promo">
+      <div class="row" >
+        <div class="col-12 col-sm-6 p-5"><video controls autoplay muted loop src="video/Arellano University _ Chiefs _ NCAA Season 93 School on Tour.mp4" class = "video"></video></div>
+        <div class="col-12 col-sm-6 p-5"><video controls autoplay muted loop src="video/GCOWiRnTg4VOy04BAPvjStAAJVMybmdjAAAF.mp4" class = "video"></video></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 p-5"><video controls autoplay muted loop src="video/GGJeihmsgiy1JyoFAGE0dRnEFvwDbmdjAAAF.mp4" class = "video"></video></div>
+        <div class="col-12 col-sm-6 p-5"><video controls autoplay muted loop src="video/402328325_709835050764183_1738357634033175334_n.mp4" class = "video"></video></div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center" id="Audio">
+      <div class="container text-center pt-5">
+        <h1>AUDIO</h1>
+      </div>
+
+      <div class="row p-5 me-4 mb-5 text-center">
+        <div class="col-12 col-sm-4">
+          <audio id="audio1" src="audio/[MP3juice.blog] Hev Abi - Alam Mo Ba Girl.mp3"></audio>
+          <button id="playPauseButton1" onclick="playPause('audio1', 'playPauseButton1', 'playPauseIcon1')">
+            <i id="playPauseIcon1" class="myaudio fas fa-volume-xmark"></i>
+          </button>
+        </div>
+        <div class="col-12 col-sm-4">
+          <audio id="audio2" src="audio/[MP3juice.blog] Hev Abi - Walang Alam.mp3"></audio>
+          <button id="playPauseButton2" onclick="playPause('audio2', 'playPauseButton2', 'playPauseIcon2')">
+            <i id="playPauseIcon2" class="myaudio fas fa-volume-xmark"></i>
+          </button>
+        </div>
+        <div class="col-12 col-sm-4">
+          <audio id="audio3" src="audio/[MP3juice.blog] Makasarili Malambing.mp3"></audio>
+          <button id="playPauseButton3" onclick="playPause('audio3', 'playPauseButton3', 'playPauseIcon3')">
+            <i id="playPauseIcon3" class="myaudio fas fa-volume-xmark"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container message p-5 mb-5"></div>
+
+    <div class="container-fluid myfooter">
+      <div class="container">
+        <h2>Site Links</h2>
+        <div class="row">
+          <div class="col-4">
+            <p><b>Main website:</b> <br><a href="https://www.arellano.edu.ph/">https://www.arellano.edu.ph/</a></p>
+          </div>
+          <div class="col-4">
+            <p><b>Learning Management:</b></p>
+            <p>LMS: <br><a href="https://www.topservelms.com/">https://www.topservelms.com/</a></p>
+            <p>Library: <br><a href="https://arellanolibrary.com/webopac.asp">https://arellanolibrary.com/webopac.asp</a></p>
+          </div>
+          <div class="col-4">
+            <p><b>Social Medias:</b></p>
+            <p>Facebook: <br><a href="https://www.facebook.com/ArellanoUniversityOfficial/">https://www.facebook.com/ArellanoUniversityOfficial/</a></p>
+            <p>Twitter: <br><a href="https://www.twitter.com/arellano_u">https://www.twitter.com/arellano_u</a></p>
+            <p>Youtube: <br><a href="https://www.youtube.com/@ArellanoUniversityOfficial">https://www.youtube.com/@ArellanoUniversityOfficial</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
